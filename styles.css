@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --color-green: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%)
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+
+}
+
+
+.container {
+    width: 40%;
+    height: 800px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.container:hover {
+    box-shadow: 5px 5px 5px black;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+    transition-delay: 0.3s;
+}
+
+
+.title {
+    font-size: 40px;
+}
+
+i {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.title:hover,
+i:hover {
+    text-shadow: 2px 2px 2px #80ff72;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+    transition-delay: 0.3s;
+}
+
+.username-div {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.username-div label {
+    display: block;
+    font-size: 16px;
+    margin-right: 222px;
+}
+
+.username-div input {
+    width: 300px;
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 50px;
+    border-color: #80ff72;
+    font-size: 16px;
+}
+
+.password-div {
+    width: 100%;
+    height: 70px;
+}
+
+.password-div label {
+    display: block;
+    font-size: 16px;
+    margin-right: 225px;
+}
+
+.password-div input {
+    width: 300px;
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #80ff72;
+    font-size: 16px;
+}
+
+.username-div input:hover,
+.password-div input:hover {
+    background-color: #80ff72;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+    transition-delay: 0.3s;
+}
+
+
+.forgot {
+    height: 40px;
+    font-size: 15px;
+}
+
+.forgot a {
+    float: right;
+    margin-right: 120px;
+    margin-top: 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Prompt', sans-serif;
+}
+
+.forgot a:hover {
+    color: #80ff72;
+    text-shadow: 1px 1px 3px #80ff72;
+}
+
+.button-div {
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-div button {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+    color: white;
+    font-size: 15px;
+}
+
+.button-div button:hover {
+    background-image: none;
+    background-color: whitesmoke;
+    color: #80ff72;
+    box-shadow: 5px 4px 4px 4px #80ff72;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+    transition-delay: 0.3s;
+}
+
+.signup {
+    height: 150px;
+}
+
+.signup a {
+    display: inline-block;
+}
+
+a img {
+    width: 60px;
+    height: 60px;
+    display: flex;
+
+}
+
+.signup p {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.signup a:hover,
+img:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+    transition-delay: 0.3s;
+}
+
+
+.sign-up-2 {
+    height: 100px;
+    margin-top: 30px;
+}
+
+.sign-up-2 p,
+a {
+    margin-top: 20px;
+}
+
+.sign-up-2 p {
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.sign-up-2 a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.sign-up-2 a:hover {
+    color: #80ff72;
+    text-shadow: 1px 1px 3px #80ff72;
+}
+
+fieldset {
+    border: none;
+}
